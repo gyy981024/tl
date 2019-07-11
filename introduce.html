@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>集团介绍</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/p_introduce.css" type="text/css">
+    <link rel="stylesheet" href="css/pad.css" type="text/css" media="(min-width:650px)">
+    <link rel="stylesheet" href="css/introduce.css" type="text/css" media="(min-width:650px)">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+</head>
+<body>
+<!-- top -->
+<div class="top">
+		<div class="gWidth">
+			<img src="images/logo.png" alt="">
+			<p class="wd">桐亮集团</p>
+			<ul class="phone_hide pc_show">
+				<a href="index.html"><li>首页</li></a>
+				<a href="introduce.html"><li  style="background-color:blue;color:#fff;">集团介绍</li></a>
+				<a href="industry.html"><li>产业项目</li></a>
+				<a href="join.html"><li>加入我们</li></a>
+			</ul>
+			<img src="images/move.png" alt="" class="phone_show pc_hide img1" id="click">
+		</div>
+</div>
+<!-- p_nav -->
+<ul class="ul1 phone_show pc_hide" id="show">
+				<a href="index.html"><li>首页</li></a>
+				<a href="introduce.html"><li>集团介绍</li></a>
+				<a href="industry.html"><li>产业项目</li></a>
+				<a href="join.html"><li>加入我们</li></a>
+			</ul>
+<!-- banner -->
+<div class="banner" id="box">
+		<img src="images/banner2.png" alt="">
+</div>
+<!-- current -->
+<div class="current">
+	<p class="gWidth">当前位置：首页&gt;集团介绍</p>
+</div>
+<!-- group -->
+<div class="group gWidth clearfix">
+	<img src="images/img1-2.png" alt="">
+	<div class="g_g">
+		<div class="w1">
+			<p class="p1">河北桐亮集团</p>
+			<p class="p2"></p>
+			<p class="p2" style="background-color:#151EC8;margin-left:30"></p>
+		</div>
+		<p class="w2">
+			公司自成立以来，涉足多个领域的业务，旗下公司包括：河北桐亮典当有限公司、河北桐亮二手车交易有限公司昇顺房地产开发有限公司、河北同城一家房地产经济有限公司、保定桐亮皮具制造有限公司、保定桐亮餐饮服务有限公司、河北祥乐物业管理有限公司，保定垚名农业发展有限公司、河北聚宝盆拍卖有限公司等。
+		</p>
+	</div>
+</div>
+<!-- term -->
+<ul class="gWidth term clearfix">
+	<li>
+		<img src="images/img11.png" alt="">
+		<p><span>理念：</span>桐行天下，亮伴人生</p>
+	</li>
+	<li style="margin-right:0px;">
+		<img src="images/img12.png" alt="">
+		<p><span>企业宗旨：</span>建一流品牌，一流服务</p>
+	</li>
+</ul>
+<!-- footer -->
+<div class="footer">
+	<div class="gWidth">
+		<p class="p1">联系我们：0312-2982888&nbsp;&nbsp;&nbsp;0312-2853333</p>
+		<p class="p2">Copyright&nbsp;&copy;&nbsp;2019-2019桐亮集团 备案号 ：冀ICP备00000000号</p>
+	</div>
+</div>
+<script>
+	var oclick = document.getElementById('click');
+	var oshow = document.getElementById('show');
+	oclick.onclick=function(){
+		if(oshow.style.display=="block"){
+			oshow.style.display="none";
+		}else{
+			oshow.style.display="block";
+		}
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+@charset "utf-8";
+.phone_hide{
+	display: none;
+}
+.phone_show{
+	display: block;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.top .gWidth{
+	width: 100%;
+}
+.top .gWidth img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+}
+.top .gWidth .wd{
+	font-size: 18px;
+	line-height: 40px;
+	float: left;
+	margin-left: 15px;
+}
+.top .gWidth .img1{
+	width: 30px;
+	height: 20px;
+	float: right;
+	margin-top: 10px;
+}
+.ul1{
+	width: 100%;
+	z-index: 99;
+	background-color:rgba(0,0,0,2);
+	position: absolute;
+	display: none;
+}
+.ul1 li{
+	color: #fff;
+	line-height: 30px;
+	border-bottom: 1px solid #ffffff;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.banner{
+	width:100%;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.banner	ul{
+	width: 500%;
+	height: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	transition: 0.5s linear;
+}
+.banner ul li{
+	float: left;
+	width:420px;
+	height: 200px;
+	list-style:none;
+}
+.banner ul img{
+	width:420px;
+	height: 200px;
+}
+.banner p{
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+}
+.banner p em{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #FFF;
+	display: inline-block;
+	margin:0 5px;
+}
+.banner p .active{
+	background: red;
+}
+.banner a{
+	padding: 15px;
+	border-color:rgba(0,0,0,.5);
+	color:#FFF;
+	text-decoration: none;
+	font-size:0.5rem;
+}
+.banner .prev{
+	background: rgba(0,0,0,.2);
+	position: absolute;
+	left: 0;
+	top: 40%;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+.banner .next{
+	background: rgba(0,0,0,.2);
+	position: absolute;
+	right: 0;
+	top: 40%;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+.banner .next img{
+	margin-left: 5px;
+}
+.introduce{
+	width: 100%;
+	height: 500px;
+	margin-top: 20px;
+}
+.introduce .i_t{
+	height: 25px;
+}
+.introduce .i_t .w1{
+	background: url(../images/tb1.png) no-repeat left;
+	padding-left: 22px;
+	float: left;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.introduce .i_t .w2{
+	float: right;
+	font-size: 14px;
+	font-family: "方正姚体";
+	color: #151EC8;
+	line-height: 22px;
+}
+.introduce .i_b{
+	width: 100%;
+	margin-top: 16px;
+}
+.introduce .i_b img{
+	float: left;
+	width: 100%;
+}
+.introduce .i_b .word{
+	float: right;
+	width:100%;
+	height: 225px;
+	background-color: #fff;
+}
+.introduce .i_b p{
+	text-indent:2em;
+	font-size:12px;
+	line-height: 23px;
+	letter-spacing:0.15em;  
+}
+.project{
+	width: 100%;
+	margin-top: 20px;
+}
+.project .i_t{
+	width: 100%;
+	height: 25px;
+}
+.project .i_t .w1{
+	background: url(../images/tb1.png) no-repeat left;
+	padding-left: 22px;
+	float: left;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.project .i_t .w2{
+	float: right;
+	font-size: 14px;
+	font-family: "方正姚体";
+	color: #999999;
+	line-height: 22px;
+}
+.project ul{
+	margin-top: 15px;
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.project ul a{
+	width: 32%;
+	height: 170px;
+}
+.project ul li{
+	position: relative;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.project ul li p{
+	position: absolute;
+	left:20px;top:77px;
+	color: #fff;
+}
+.footer .gWidth{
+	width: 100%;
+	height: 55px;
+	background-color: #F0F0F0;
+	margin-top: 15px;
+}
+.footer .gWidth .p1{
+	width: 100%;
+	font-size: 12px;
+	color: #3F3F3F;
+	text-align: center;
+	padding-top: 10px;
+}	
+.footer .gWidth .p2{
+	width: 100%;
+	font-size: 10px;
+	color: #666666;
+	text-align: center;
+/*	margin-top: 10px;*/
+}
